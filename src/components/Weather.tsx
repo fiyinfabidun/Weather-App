@@ -258,7 +258,7 @@ export const Weather :React.FC = () => {
             <WiStrongWind className="icon" />
             <h2>wind speed</h2>
         </div>
-        <p>{weatherInfo.wind.speed}</p>
+        <p>{weatherInfo.wind.speed}m/s</p>
         </div>
        </div>
             </>
